@@ -1,12 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 /** -------Basic------- **/
 h1,
 h2,
 h3,
 h4 {
+  font-family: "Bebas Neue", cursive;
   color: #363958;
 }
 img {
   max-width: 100%;
+}
+
+.bg-light-color {
+  background-color: #fffbf0;
+}
+.text-highlight {
+  color: #fabe4c;
+}
+.custom-btn {
+  color: #ffffff;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 5px;
+  background-image: linear-gradient(#a4bc46, #85a019);
+}
+.custom-btn i {
+  margin-right: 10px;
+}
+.custom-btn:hover {
+  color: #ffffff;
 }
 
 /** -------Navbar------- **/
@@ -21,6 +43,10 @@ img {
   margin-right: 0;
 }
 
+/** -------Penguin Home------- **/
 .penguin-home {
   padding: 20px 0;
+}
+.penguin-home h1 {
+  font-size: 55px;
 }
