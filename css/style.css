@@ -1,0 +1,26 @@
+/** -------Basic------- **/
+h1,
+h2,
+h3,
+h4 {
+  color: #363958;
+}
+img {
+  max-width: 100%;
+}
+
+/** -------Navbar------- **/
+.custom-nav .navbar-brand img {
+  height: 28px;
+}
+.custom-nav .nav-item {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.custom-nav .nav-item:last-child {
+  margin-right: 0;
+}
+
+.penguin-home {
+  padding: 20px 0;
+}
