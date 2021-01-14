@@ -30,6 +30,9 @@ img {
 .custom-btn:hover {
   color: #ffffff;
 }
+.card-title {
+  color: #363958;
+}
 
 /** -------Navbar------- **/
 .custom-nav .navbar-brand img {
@@ -50,3 +53,38 @@ img {
 .penguin-home h1 {
   font-size: 55px;
 }
+
+/** -------Woman Jacket------- **/
+/** -------Man Jacket------- **/
+.jacket-product .card {
+  border: 0;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px #00000026;
+  transition: box-shadow 0.2s ease-in-out;
+}
+.jacket-product .card:hover {
+  box-shadow: 0 0px 3px #00000026;
+}
+.jacket-product .card-img {
+  height: 270px;
+  background-color: #f1f1f1;
+  width: 88%;
+  margin: auto;
+  margin-top: 15px;
+  border-radius: 15px;
+}
+.jacket-product .card-img img {
+  max-height: 100%;
+  width: auto;
+}
+.jacket-product .card-footer {
+  background-color: transparent;
+  border-top: 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* @media (max-width: 992px) {
+  .card-footer {
+  }
+} */
