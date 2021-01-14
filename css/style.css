@@ -78,7 +78,9 @@ img {
 .jacket-product .card {
   border: 0;
   border-radius: 15px;
-  box-shadow: 0 5px 20px #00000017;
+}
+.jacket-product .shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem #00000023 !important;
 }
 .jacket-product .card-img {
   height: 270px;
