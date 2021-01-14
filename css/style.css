@@ -123,6 +123,21 @@ img {
 }
 
 /** -------Footer------- **/
+.contact {
+}
+.contact .icon {
+  font-size: 35px;
+  margin-right: 15px;
+  width: 50px;
+  text-align: center;
+}
+.contact h6 {
+  font-size: 16px;
+}
+.contact p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
 .subscribe .form-control {
   color: #ffffff;
   background-color: transparent;
@@ -167,5 +182,10 @@ img {
   }
   .discount-offer .custom-btn {
     margin-left: 0;
+  }
+
+  /* Footer */
+  .contact-info {
+    margin-bottom: 10px;
   }
 }
