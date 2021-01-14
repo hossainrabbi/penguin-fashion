@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sofia&display=swap");
 /** -------Basic------- **/
 h1,
 h2,
@@ -19,7 +19,7 @@ img {
 .custom-btn {
   font-size: 14px;
   color: #ffffff;
-  padding: 10px 20px;
+  padding: 9px 20px;
   border: 0;
   border-radius: 5px;
   background: linear-gradient(#a4bc46, #85a019);
@@ -95,6 +95,21 @@ img {
   padding-left: 70px;
 }
 
+/** -------Discount Offer------- **/
+.discount-offer h1 {
+  font-family: "Sofia", cursive;
+  font-style: italic;
+  font-weight: 700;
+}
+.discount-offer .custom-btn {
+  margin-left: 50px;
+}
+
+/** -------Footer------- **/
+.subscribe .form-control {
+  background-color: transparent;
+}
+
 /** -------Responsive------- **/
 @media (max-width: 992px) {
   .custom-btn {
@@ -114,5 +129,13 @@ img {
   .shop-info-img {
     padding-left: 0;
     margin-bottom: 50px;
+  }
+
+  /* Discount Offer */
+  .discount-offer .discount-btn-info {
+    justify-content: space-between;
+  }
+  .discount-offer .custom-btn {
+    margin-left: 0;
   }
 }
