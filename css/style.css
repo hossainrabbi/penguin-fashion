@@ -2,8 +2,7 @@
 /** -------Basic------- **/
 h1,
 h2,
-h3,
-h4 {
+h3 {
   font-family: "Bebas Neue", cursive;
   color: #363958;
 }
@@ -18,11 +17,12 @@ img {
   color: #fabe4c;
 }
 .custom-btn {
+  font-size: 14px;
   color: #ffffff;
   padding: 10px 20px;
   border: 0;
   border-radius: 5px;
-  background-image: linear-gradient(#a4bc46, #85a019);
+  background: linear-gradient(#a4bc46, #85a019);
 }
 .custom-btn i {
   margin-right: 10px;
@@ -80,11 +80,36 @@ img {
 .jacket-product .card-footer {
   background-color: transparent;
   border-top: 0;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
-/* @media (max-width: 992px) {
-  .card-footer {
+/** -------Shop Information------- **/
+.shop-info .icon {
+  width: 80px;
+  margin-right: 15px;
+}
+.shop-info .shadow-sm {
+  box-shadow: 0 0.125rem 2rem rgba(0, 0, 0, 0.075) !important;
+}
+.shop-info-img {
+  padding-left: 70px;
+}
+
+@media (max-width: 992px) {
+  .custom-btn {
+    padding: 8px 15px;
   }
-} */
+  .custom-btn i {
+    margin-right: 5px;
+  }
+  .card-footer h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .shop-info-img {
+    padding-left: 0;
+    margin-bottom: 50px;
+  }
+}

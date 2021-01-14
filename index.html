@@ -12,45 +12,51 @@
 
     <title>Penguin Fashion</title>
   </head>
-  <body>
+  <body id="home">
     <!-- -------Navbar------- -->
-    <nav class="navbar navbar-expand-lg custom-nav navbar-light bg-light-color">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img class="img-fluid" src="images/icons/logo.png" alt="logo" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarSupportedContent"
-        >
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact us</a>
-            </li>
-          </ul>
+    <header class="sticky-top">
+      <nav
+        class="navbar navbar-expand-lg custom-nav navbar-light bg-light-color"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="img-fluid" src="images/icons/logo.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#product">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#shop-info">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
     <main>
       <!-- -------Penguin Home------- -->
       <section class="penguin-home bg-light-color pb-5 mb-5">
@@ -74,7 +80,7 @@
         </div>
       </section>
       <!-- -------Woman Jacket------- -->
-      <section class="jacket-product container mb-5">
+      <section class="jacket-product container mb-5" id="product">
         <h2 class="mb-5 pt-4">WoMan Jacket</h2>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
@@ -226,6 +232,64 @@
                 >
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      <!-- -------Shop Information------- -->
+      <section class="shop-info container pt-4 mb-5" id="shop-info">
+        <div
+          class="row d-flex justify-content-between align-items-center flex-column-reverse flex-md-row"
+        >
+          <div class="col-md-5">
+            <div class="find-fit shadow-sm d-flex align-items-center my-3 p-3">
+              <div class="icon">
+                <img src="images/icons/find-fit.png" alt="find-fit" />
+              </div>
+              <div class="content">
+                <h5>Find the Perfect Fit</h5>
+                <p class="mb-0">
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+            <div
+              class="free-exchanges shadow-sm d-flex align-items-center my-3 p-3"
+            >
+              <div class="icon">
+                <img
+                  src="images/icons/free-exchanges.png"
+                  alt="free-exchanges"
+                />
+              </div>
+              <div class="content">
+                <h5>Find the Perfect Fit</h5>
+                <p class="mb-0">
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+            <div
+              class="contact-seller shadow-sm d-flex align-items-center my-3 p-3"
+            >
+              <div class="icon">
+                <img
+                  src="images/icons/contact-seller.png"
+                  alt="contact-seller"
+                />
+              </div>
+              <div class="content">
+                <h5>Find the Perfect Fit</h5>
+                <p class="mb-0">
+                  Everybody is different, which is why we offer styles for every
+                  body.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-7 shop-info-img">
+            <img src="images/icons/shop-info.png" alt="shop-info" />
           </div>
         </div>
       </section>
