@@ -1,4 +1,4 @@
-# Penguin Pashion
+# Penguin Fashion
 
 <p>Assignment - 2</p>
 <h3>
