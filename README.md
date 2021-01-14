@@ -6,5 +6,5 @@
 </h3>
 
 <p align="center">
-    <img src="images/penguin-fashion.png" alt="penguin-fashion>
+    <img src="images/penguin-fashion.png" alt="penguin-fashion" />
 </p>
