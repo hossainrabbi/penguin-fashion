@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sofia&display=swap");
+
 /** -------Basic------- **/
 h1,
 h2,
@@ -29,6 +30,18 @@ img {
 }
 .custom-btn:hover {
   color: #ffffff;
+}
+.text-title {
+  position: relative;
+}
+.text-title::before {
+  content: "";
+  width: 40px;
+  height: 5px;
+  background: linear-gradient(120deg, #fabe4c, #85a019);
+  position: absolute;
+  left: 0;
+  bottom: -3px;
 }
 .card-title {
   color: #363958;
@@ -112,7 +125,7 @@ img {
 }
 
 /** -------Responsive------- **/
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .custom-btn {
     padding: 8px 15px;
   }
@@ -125,7 +138,15 @@ img {
     font-size: 20px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
+  .text-title {
+    text-align: center;
+  }
+  .text-title::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   /* Shop Information */
   .shop-info-img {
     padding-left: 0;
