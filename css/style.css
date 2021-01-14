@@ -46,6 +46,9 @@ img {
 .card-title {
   color: #363958;
 }
+.price {
+  font-family: "Bebas Neue", cursive;
+}
 .origin-price {
   color: #9e9e9e;
   text-decoration: line-through;
@@ -118,6 +121,29 @@ img {
   font-style: italic;
   font-weight: 700;
 }
+.offer-img {
+  height: 162px;
+  background-color: #f1f1f1;
+  width: 40%;
+  margin-top: 15px;
+  margin-left: 0;
+  margin-right: 20px;
+  transition: background-color 0.3s ease-in-out;
+}
+.offer-img:hover {
+  background-color: #00000027;
+}
+.offer-img img {
+  max-height: 100%;
+  width: auto;
+  margin-bottom: 0;
+}
+.offer-content {
+  margin: auto;
+}
+.offer-title {
+  color: #363958;
+}
 
 /** -------Footer------- **/
 .contact .icon {
@@ -166,11 +192,6 @@ img {
   .shop-info-img {
     padding-left: 0;
     margin-bottom: 50px;
-  }
-
-  /* Discount Offer */
-  .discount-offer img {
-    margin-bottom: 30px;
   }
 
   /* Footer */
