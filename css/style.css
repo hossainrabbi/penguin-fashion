@@ -46,6 +46,10 @@ img {
 .card-title {
   color: #363958;
 }
+.origin-price {
+  color: #9e9e9e;
+  text-decoration: line-through;
+}
 
 /** -------Navbar------- **/
 .custom-nav .navbar-brand img {
@@ -71,7 +75,7 @@ img {
 .jacket-product .card {
   border: 0;
   border-radius: 15px;
-  box-shadow: 0 5px 20px #00000026;
+  box-shadow: 0 5px 20px #00000017;
 }
 .jacket-product .card-img {
   height: 270px;
@@ -138,6 +142,7 @@ img {
     font-size: 20px;
   }
 }
+
 @media (max-width: 767px) {
   .text-title {
     text-align: center;
@@ -154,6 +159,9 @@ img {
   }
 
   /* Discount Offer */
+  .discount-offer img {
+    margin-bottom: 30px;
+  }
   .discount-offer .discount-btn-info {
     justify-content: space-between;
   }
